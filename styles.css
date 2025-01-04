@@ -1,0 +1,112 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: rgb(4, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(4, 0, 36, 1) 0%,
+    rgba(33, 9, 121, 1) 33%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.container {
+  background: white;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 30px;
+  max-width: 50%;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #002765;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #edeef0;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+.input-container input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+  font-weight: 14px;
+}
+.add {
+  border: none;
+  outline: none;
+  padding: 16px 50px;
+  background: #ff5945;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 40px;
+}
+.buttons-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.buttons-wrapper button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  min-height: 150px;
+}
+
+ul li {
+  list-style: none;
+  font-size: 17px;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+ul li input {
+  cursor: pointer;
+  width: 20px;
+}
+
+ul li .li-child {
+  display: flex;
+  gap: 20px;
+}
+
+ul li img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.buttons-wrapper .active {
+  color: #002765;
+  font-weight: bold;
+  background-color: #edeef0;
+  border-radius: 50%;
+  width: 70px;
+  height: 50px;
+}
